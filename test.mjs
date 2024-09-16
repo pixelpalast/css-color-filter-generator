@@ -345,7 +345,7 @@ class Solver {
 
 export function compute(input, runs) {
   let rgb;
-  const maxRuns = 30;
+  const maxRuns = 50;
 
   if (isHEXValid(input)) {
     rgb = hexToRgb(input);
@@ -390,6 +390,8 @@ export function compute(input, runs) {
       console.log(runs, maxRuns);
       console.log(` ------- max runs exceeded ------- `);
       res.lossMsg = "max runs exceeded";
+
+      return ` ------- max runs exceeded ------- `;
     } else {
       compute(input, runs);
     }
@@ -397,9 +399,10 @@ export function compute(input, runs) {
     // finished
     // testArray.push(res.result);
     // console.log(`runs: ${runs}`);
-    console.log(input, runs);
-    console.log(res.result.loss);
-    console.log(res.result.filter);
+
+    // console.log(input, runs);
+    // console.log(res.result.loss);
+    // console.log(res.result.filter);
     return res;
   }
 

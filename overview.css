@@ -1,0 +1,41 @@
+#icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.icon-wrapper--section {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-wrapper--row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 25px);
+  justify-items: center;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.icon-wrapper--title {
+  width: 50px;
+}
+
+.icon-wrapper--tile {
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+}
+
+.no-filter {
+  background-color: #00f700;
+}
+
+img {
+  transition: all 500ms ease;
+}
+
+img:hover {
+  filter: brightness(0) saturate(100%) invert(34%) sepia(64%) saturate(2262%) hue-rotate(332deg) brightness(86%) contrast(103%) !important;
+}

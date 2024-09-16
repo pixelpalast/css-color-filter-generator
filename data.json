@@ -1,1 +1,321 @@
-[{"color":{"r":245,"g":252,"b":255},"solver":{"target":{"r":245,"g":252,"b":255},"targetHSL":{"h":54.999999999999986,"s":100,"l":98.03921568627452},"reusedColor":{"r":244.65847157737616,"g":255,"b":255}},"result":{"values":[87.59270293761597,22.353645713635775,103.19441802344733,50.89210805856862,103.80287198017356,107.48632655776305],"loss":0.546642730144768,"filter":"filter: brightness(0) saturate(100%) invert(88%) sepia(22%) saturate(103%) hue-rotate(183deg) brightness(104%) contrast(107%);","filterRaw":"brightness(0) saturate(100%) invert(88%) sepia(22%) saturate(103%) hue-rotate(183deg) brightness(104%) contrast(107%)"},"lossMsg":"This is a perfect result."},null,null,{"color":{"r":0,"g":171,"b":186},"solver":{"target":{"r":0,"g":171,"b":186},"targetHSL":{"h":51.344086021505376,"s":100,"l":36.470588235294116},"reusedColor":{"r":0,"g":170.89961543128072,"b":186.01194843407364}},"result":{"values":[56.64094665492996,36.717316510188695,6901.505608139862,42.14812060365211,94.84040140482516,104.90360834360531],"loss":0.124654530638864,"filter":"filter: brightness(0) saturate(100%) invert(57%) sepia(37%) saturate(6902%) hue-rotate(152deg) brightness(95%) contrast(105%);","filterRaw":"brightness(0) saturate(100%) invert(57%) sepia(37%) saturate(6902%) hue-rotate(152deg) brightness(95%) contrast(105%)"},"lossMsg":"This is a perfect result."},{"color":{"r":3,"g":149,"b":161},"solver":{"target":{"r":3,"g":149,"b":161},"targetHSL":{"h":51.26582278481012,"s":96.34146341463415,"l":32.15686274509804},"reusedColor":{"r":3.033420279742451,"g":149.03544709034412,"b":161.10125434647628}},"result":{"values":[48.41262837675937,97.18555696103705,4769.210051440192,44.8124582037992,95.93458945671509,97.62084683941768],"loss":0.24064511969412195,"filter":"filter: brightness(0) saturate(100%) invert(48%) sepia(97%) saturate(4769%) hue-rotate(161deg) brightness(96%) contrast(98%);","filterRaw":"brightness(0) saturate(100%) invert(48%) sepia(97%) saturate(4769%) hue-rotate(161deg) brightness(96%) contrast(98%)"},"lossMsg":"This is a perfect result."},{"color":{"r":5,"g":94,"b":95},"solver":{"target":{"r":5,"g":94,"b":95},"targetHSL":{"h":50.18518518518519,"s":90,"l":19.607843137254903},"reusedColor":{"r":5.038572329054798,"g":93.836133636644,"b":94.88493204681477}},"result":{"values":[27.907948602230473,32.20329412228591,1164.0229920836819,36.647518535749306,94.79548035194189,96.05993580854125],"loss":0.360238755966944,"filter":"filter: brightness(0) saturate(100%) invert(28%) sepia(32%) saturate(1164%) hue-rotate(132deg) brightness(95%) contrast(96%);","filterRaw":"brightness(0) saturate(100%) invert(28%) sepia(32%) saturate(1164%) hue-rotate(132deg) brightness(95%) contrast(96%)"},"lossMsg":"This is a perfect result."},{"color":{"r":0,"g":66,"b":72},"solver":{"target":{"r":0,"g":66,"b":72},"targetHSL":{"h":51.388888888888886,"s":100,"l":14.117647058823529},"reusedColor":{"r":0,"g":65.76742864346923,"b":72.09671746711518}},"result":{"values":[18.070928236134566,11.115270776091036,6357.936608048073,41.36650552676005,101.27980764164839,102.27661127544916],"loss":0.36060849898187186,"filter":"filter: brightness(0) saturate(100%) invert(18%) sepia(11%) saturate(6358%) hue-rotate(149deg) brightness(101%) contrast(102%);","filterRaw":"brightness(0) saturate(100%) invert(18%) sepia(11%) saturate(6358%) hue-rotate(149deg) brightness(101%) contrast(102%)"},"lossMsg":"This is a perfect result."}]
+{
+  "color": {
+    "palette": {
+      "primary": {
+        "100": {
+          "value": "#f5fcff",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(83%) sepia(2%) saturate(1369%) hue-rotate(184deg) brightness(117%) contrast(103%);"
+        },
+        "200": {
+          "value": "#e0f7f8",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(96%) sepia(38%) saturate(144%) hue-rotate(101deg) brightness(94%) contrast(108%);"
+        },
+        "300": {
+          "value": "#80dde4",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(82%) sepia(49%) saturate(329%) hue-rotate(133deg) brightness(91%) contrast(97%);"
+        },
+        "400": {
+          "value": "#00abba",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(51%) sepia(31%) saturate(5285%) hue-rotate(151deg) brightness(95%) contrast(102%);"
+        },
+        "500": {
+          "value": "#0395a1",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(35%) sepia(99%) saturate(896%) hue-rotate(150deg) brightness(97%) contrast(98%);"
+        },
+        "600": {
+          "value": "#055e5f",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(23%) sepia(58%) saturate(1522%) hue-rotate(148deg) brightness(97%) contrast(96%);"
+        },
+        "700": {
+          "value": "#004248",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(15%) sepia(85%) saturate(1697%) hue-rotate(161deg) brightness(90%) contrast(101%);"
+        }
+      },
+      "accent": {
+        "100": {
+          "value": "#fffcf6",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(94%) sepia(2%) saturate(1086%) hue-rotate(333deg) brightness(105%) contrast(102%);"
+        },
+        "200": {
+          "value": "#fef1da",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(93%) sepia(6%) saturate(935%) hue-rotate(337deg) brightness(103%) contrast(99%);"
+        },
+        "300": {
+          "value": "#ffd385",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(80%) sepia(39%) saturate(515%) hue-rotate(339deg) brightness(104%) contrast(101%);"
+        },
+        "400": {
+          "value": "#fba308",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(69%) sepia(24%) saturate(2071%) hue-rotate(353deg) brightness(98%) contrast(102%);"
+        },
+        "500": {
+          "value": "#fb9105",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(69%) sepia(40%) saturate(6965%) hue-rotate(3deg) brightness(109%) contrast(97%);"
+        },
+        "600": {
+          "value": "#f0670a",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(46%) sepia(27%) saturate(5344%) hue-rotate(360deg) brightness(98%) contrast(92%);"
+        },
+        "700": {
+          "value": "#bf5208",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(40%) sepia(55%) saturate(7488%) hue-rotate(23deg) brightness(95%) contrast(94%);"
+        }
+      },
+      "neutral": {
+        "100": {
+          "value": "#f7f7f8",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(95%) sepia(2%) saturate(61%) hue-rotate(201deg) brightness(100%) contrast(102%);"
+        },
+        "200": {
+          "value": "#e7e9ea",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(100%) sepia(10%) saturate(712%) hue-rotate(171deg) brightness(96%) contrast(90%);"
+        },
+        "300": {
+          "value": "#cbcfd2",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(79%) sepia(5%) saturate(161%) hue-rotate(163deg) brightness(105%) contrast(91%);"
+        },
+        "400": {
+          "value": "#b0b6ba",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(84%) sepia(8%) saturate(169%) hue-rotate(161deg) brightness(87%) contrast(87%);"
+        },
+        "500": {
+          "value": "#808a90",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(65%) sepia(2%) saturate(1662%) hue-rotate(159deg) brightness(83%) contrast(79%);"
+        },
+        "600": {
+          "value": "#35444c",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(24%) sepia(14%) saturate(636%) hue-rotate(157deg) brightness(100%) contrast(95%);"
+        },
+        "700": {
+          "value": "#263238",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(12%) sepia(4%) saturate(5162%) hue-rotate(156deg) brightness(94%) contrast(80%);"
+        }
+      },
+      "shades": {
+        "white": {
+          "value": "#ffffff",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(176deg) brightness(111%) contrast(104%);"
+        },
+        "black": {
+          "value": "#000000",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(0%) sepia(86%) saturate(3063%) hue-rotate(112deg) brightness(105%) contrast(106%);"
+        }
+      },
+      "positive": {
+        "100": {
+          "value": "#E0F2E4",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(91%) sepia(3%) saturate(995%) hue-rotate(79deg) brightness(108%) contrast(90%);"
+        },
+        "200": {
+          "value": "#B2DFBC",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(95%) sepia(4%) saturate(2263%) hue-rotate(72deg) brightness(98%) contrast(78%);"
+        },
+        "300": {
+          "value": "#83CC93",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(88%) sepia(24%) saturate(638%) hue-rotate(69deg) brightness(85%) contrast(86%);"
+        },
+        "400": {
+          "value": "#28A744",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(46%) sepia(56%) saturate(647%) hue-rotate(81deg) brightness(102%) contrast(84%);"
+        },
+        "500": {
+          "value": "#1F8335",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(35%) sepia(99%) saturate(480%) hue-rotate(83deg) brightness(90%) contrast(80%);"
+        },
+        "600": {
+          "value": "#155623",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(22%) sepia(88%) saturate(428%) hue-rotate(81deg) brightness(94%) contrast(93%);"
+        },
+        "700": {
+          "value": "#10441C",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(17%) sepia(80%) saturate(456%) hue-rotate(82deg) brightness(97%) contrast(95%);"
+        }
+      },
+      "warning": {
+        "100": {
+          "value": "#FFFAEA",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(89%) sepia(3%) saturate(2176%) hue-rotate(326deg) brightness(105%) contrast(119%);"
+        },
+        "200": {
+          "value": "#FFEDB6",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(94%) sepia(2%) saturate(5055%) hue-rotate(341deg) brightness(97%) contrast(113%);"
+        },
+        "300": {
+          "value": "#FFD554",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(100%) sepia(90%) saturate(1868%) hue-rotate(316deg) brightness(105%) contrast(102%);"
+        },
+        "400": {
+          "value": "#FFC106",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(82%) sepia(59%) saturate(2767%) hue-rotate(352deg) brightness(103%) contrast(104%);"
+        },
+        "500": {
+          "value": "#DBA605",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(61%) sepia(99%) saturate(740%) hue-rotate(5deg) brightness(93%) contrast(96%);"
+        },
+        "600": {
+          "value": "#926E03",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(54%) sepia(89%) saturate(5723%) hue-rotate(39deg) brightness(95%) contrast(98%);"
+        },
+        "700": {
+          "value": "#493702",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(20%) sepia(10%) saturate(6769%) hue-rotate(23deg) brightness(95%) contrast(98%);"
+        }
+      },
+      "critical": {
+        "100": {
+          "value": "#FBE9EB",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(88%) sepia(13%) saturate(325%) hue-rotate(308deg) brightness(106%) contrast(97%);"
+        },
+        "200": {
+          "value": "#F6C9CE",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(84%) sepia(21%) saturate(357%) hue-rotate(306deg) brightness(95%) contrast(104%);"
+        },
+        "300": {
+          "value": "#EB8791",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(64%) sepia(11%) saturate(1824%) hue-rotate(305deg) brightness(98%) contrast(89%);"
+        },
+        "400": {
+          "value": "#DD3444",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(34%) sepia(64%) saturate(2262%) hue-rotate(332deg) brightness(86%) contrast(103%);"
+        },
+        "500": {
+          "value": "#B22A37",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(19%) sepia(82%) saturate(2418%) hue-rotate(337deg) brightness(90%) contrast(88%);"
+        },
+        "600": {
+          "value": "#8E212C",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(15%) sepia(36%) saturate(4841%) hue-rotate(336deg) brightness(95%) contrast(92%);"
+        },
+        "700": {
+          "value": "#711B23",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(13%) sepia(38%) saturate(4651%) hue-rotate(336deg) brightness(91%) contrast(93%);"
+        }
+      },
+      "highlight": {
+        "100": {
+          "value": "#E1EFFF",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(83%) sepia(2%) saturate(3994%) hue-rotate(194deg) brightness(107%) contrast(115%);"
+        },
+        "200": {
+          "value": "#B4D8FF",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(75%) sepia(54%) saturate(413%) hue-rotate(185deg) brightness(103%) contrast(102%);"
+        },
+        "300": {
+          "value": "#58A8FE",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(53%) sepia(92%) saturate(703%) hue-rotate(187deg) brightness(101%) contrast(100%);"
+        },
+        "400": {
+          "value": "#037BFE",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(38%) sepia(79%) saturate(4683%) hue-rotate(201deg) brightness(102%) contrast(99%);"
+        },
+        "500": {
+          "value": "#025CBE",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(21%) sepia(89%) saturate(6261%) hue-rotate(203deg) brightness(90%) contrast(98%);"
+        },
+        "600": {
+          "value": "#024997",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(17%) sepia(92%) saturate(2026%) hue-rotate(200deg) brightness(94%) contrast(98%);"
+        },
+        "700": {
+          "value": "#013A78",
+          "type": "color",
+          "filter": "brightness(0) saturate(100%) invert(15%) sepia(90%) saturate(1956%) hue-rotate(199deg) brightness(89%) contrast(99%);"
+        }
+      }
+    },
+    "text-on-primary": {
+      "value": "{color.text-on-dark}",
+      "type": "color"
+    },
+    "text-on-accent": {
+      "value": "{color.text-on-dark}",
+      "type": "color"
+    },
+    "text-on-neutral": {
+      "value": "{color.text}",
+      "type": "color"
+    },
+    "text-on-positive": {
+      "value": "{color.text-on-dark}",
+      "type": "color"
+    },
+    "text-on-warning": {
+      "value": "{color.text}",
+      "type": "color"
+    },
+    "text-on-critical": {
+      "value": "{color.text-on-dark}",
+      "type": "color"
+    },
+    "text-on-highlight": {
+      "value": "{color.text-on-dark}",
+      "type": "color"
+    },
+    "text-on-interactive": {
+      "value": "{color.text-on-accent}",
+      "type": "color"
+    },
+    "interactive": {
+      "value": "{color.palette.accent.400}",
+      "type": "color"
+    },
+    "interactive-hover": {
+      "value": "{color.palette.accent.500}",
+      "type": "color"
+    }
+  },
+  "font-sans": {
+    "value": "Moderat",
+    "type": "fontFamilies"
+  }
+}
